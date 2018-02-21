@@ -16,8 +16,8 @@ import {
 } from 'amazon-cognito-identity-js';
 
 var poolData = {
-        UserPoolId : 'us-east-1_EUKt36Qg2', // Your user pool id here
-        ClientId : '4oipadee9ac4fpf2hoa9l96r32' // Your client id here
+        UserPoolId : '', // Your user pool id here
+        ClientId : '' // Your client id here
     };
 var userPool = new CognitoUserPool(poolData);
 
